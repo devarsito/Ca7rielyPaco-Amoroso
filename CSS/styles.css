@@ -1,0 +1,65 @@
+/*-- CONTENEDORES --*/
+
+header{
+    padding: 60px;
+}
+
+footer{
+  padding: 30px 0px 30px 40px;
+}
+
+nav{
+    position: absolute;
+    top:45px;
+    right:25px
+}
+
+nav li{
+    margin: 5px;
+}
+
+section{
+    margin: 50px;
+}
+
+article{
+    margin: 50px 50px;
+}
+
+
+/*-- CLASES --*/
+
+h3{
+    padding: 0px 0px 20px 0px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.centrar{
+    margin: 90px 0px 0px 0px;
+}
+
+/*-- ANIMACION --*/
+
+.texto{
+    transition: transform 100ms ease;
+}
+
+.texto:hover{
+    transform: scale(1.3);
+}
+
+.zoom{
+    transition: transform 100ms ease;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+}
+
+.mar{
+    margin: 0px 0px 30px 0px;
+}
+
